@@ -27,6 +27,7 @@ public class ReservationServiceIMPL implements ReservationService {
 	private Hotel h2 = new Hotel();
 	private Hotel h3 = new Hotel();
 	
+	//Use List<>
 	@Override
 	public ArrayList<Hotel> findAllHotels() {
 		BigDecimal b1 = new BigDecimal("500");
